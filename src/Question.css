@@ -1,0 +1,13 @@
+.AnswerButton {
+  width: 100%;
+}
+
+.AnswerButton.green {
+  border: 1px solid green !important;
+  color: green !important;
+}
+
+.AnswerButton.red {
+  border: 1px solid red !important;
+  color: red !important;
+}
