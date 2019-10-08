@@ -28,7 +28,13 @@ class App extends React.Component {
 
   fetchData(event) {
     event.preventDefault();
-    let apiUrl = "https://opentdb.com/api.php?amount=10&category=" + this.state.category + "&difficulty=" + this.state.difficulty;
+    let apiUrl = 'https://opentdb.com/api.php?amount=10';
+    if (this.state.category !== "any") {
+      apiUrl += '&category=' + this.state.category;
+    }
+    if (this.state.difficulty !== "any") {
+      apiUrl +=  '&difficulty=' + this.state.difficulty;
+    }
     fetch(apiUrl)
       .then(res => res.json())
       .then(
