@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/otrivia/static/css/main.f2de61f2.chunk.css",
-    "main.js": "/otrivia/static/js/main.3b7b5991.chunk.js",
-    "main.js.map": "/otrivia/static/js/main.3b7b5991.chunk.js.map",
+    "main.js": "/otrivia/static/js/main.bee2b8ac.chunk.js",
+    "main.js.map": "/otrivia/static/js/main.bee2b8ac.chunk.js.map",
     "runtime-main.js": "/otrivia/static/js/runtime-main.49d374e2.js",
     "runtime-main.js.map": "/otrivia/static/js/runtime-main.49d374e2.js.map",
     "static/js/2.2d8e9cd3.chunk.js": "/otrivia/static/js/2.2d8e9cd3.chunk.js",
     "static/js/2.2d8e9cd3.chunk.js.map": "/otrivia/static/js/2.2d8e9cd3.chunk.js.map",
     "index.html": "/otrivia/index.html",
-    "precache-manifest.2d42279fc4ec1c068771fe7adc7f9305.js": "/otrivia/precache-manifest.2d42279fc4ec1c068771fe7adc7f9305.js",
+    "precache-manifest.471ec02c00c6501186162fb114be76b3.js": "/otrivia/precache-manifest.471ec02c00c6501186162fb114be76b3.js",
     "service-worker.js": "/otrivia/service-worker.js",
     "static/css/main.f2de61f2.chunk.css.map": "/otrivia/static/css/main.f2de61f2.chunk.css.map"
   }
