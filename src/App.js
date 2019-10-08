@@ -57,7 +57,6 @@ class App extends React.Component {
   nextQuestion() {
     let currentQuestion = this.state.currentQuestion;
     currentQuestion++;
-    console.log(currentQuestion);
     this.setState({
       currentQuestion: currentQuestion
     });
