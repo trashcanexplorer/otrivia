@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/otrivia/static/css/main.f2de61f2.chunk.css",
+    "main.js": "/otrivia/static/js/main.b5b75b70.chunk.js",
+    "main.js.map": "/otrivia/static/js/main.b5b75b70.chunk.js.map",
+    "runtime-main.js": "/otrivia/static/js/runtime-main.49d374e2.js",
+    "runtime-main.js.map": "/otrivia/static/js/runtime-main.49d374e2.js.map",
+    "static/js/2.2d8e9cd3.chunk.js": "/otrivia/static/js/2.2d8e9cd3.chunk.js",
+    "static/js/2.2d8e9cd3.chunk.js.map": "/otrivia/static/js/2.2d8e9cd3.chunk.js.map",
+    "index.html": "/otrivia/index.html",
+    "precache-manifest.a039e301c52d331377548b879824c27c.js": "/otrivia/precache-manifest.a039e301c52d331377548b879824c27c.js",
+    "service-worker.js": "/otrivia/service-worker.js",
+    "static/css/main.f2de61f2.chunk.css.map": "/otrivia/static/css/main.f2de61f2.chunk.css.map"
+  }
+}
