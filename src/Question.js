@@ -6,12 +6,19 @@ class Question extends React.Component {
   constructor(props) {
     super(props);
     this.checkAnswer = this.checkAnswer.bind(this);
+    this.decodeHtml = this.decodeHtml.bind(this);
     this.state = {
       answers: [],
       isCorrect: false,
       answered: false
     }
   }
+
+  decodeHtml(html) {
+    let txt = document.createElement('textarea');
+    txt.innerHTML = html;
+    return txt.value;
+  };
 
   checkAnswer(answer) {
     if (answer === this.props.question.correct_answer) {
@@ -45,7 +52,7 @@ class Question extends React.Component {
   render() {
     return(
       <Grid container spacing={3}>
-        <Grid item xs={12}>{this.props.question.question}</Grid>
+        <Grid item xs={12}>{this.decodeHtml(this.props.question.question)}</Grid>
         {this.state.answers.map((answer, index) =>
           <Grid item sm={6} xs={12}>
             <Button
@@ -57,7 +64,7 @@ class Question extends React.Component {
               key={index}
               className={this.state.answered && answer === this.props.question.correct_answer ? "AnswerButton green" : this.state.answered && answer !== this.props.question.correct_answer ? "AnswerButton red" : "AnswerButton"}
             >
-              {answer}
+              {this.decodeHtml(answer)}
             </Button>
           </Grid>
         )}
